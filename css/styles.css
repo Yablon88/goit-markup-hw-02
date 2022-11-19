@@ -1,0 +1,60 @@
+/*  усіх заголовків #2E2F42 */
+/*  загального тексту #434455 */
+/*  кнопок #4D5AE5 */
+/*  активний текст #FFFFFF */
+/*  фон неатквної кнопки #E7E9FC */
+
+.body{
+    background-color: #E5E5E5;
+    color: #434455;
+}
+ul{
+    list-style: none;
+}
+ /* Логотип */
+ .logo{
+    color: #4D5AE5;
+ }
+ .nav{
+   color:  #2E2F42
+ }
+
+ .head{
+    background: #2E2F42;
+    color: #FFFFFF;
+ }
+ 
+ .button-primary{
+    background-color:   #4D5AE5;
+    color: #FFFFFF;
+ }
+ .button-primary:hover, .button-primary:focus{
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+ }
+ .button-secondary{
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+ }
+.button-secondary:hover, .button-secondary:focus{
+    background-color:   #4D5AE5;
+    color: #FFFFFF;
+}
+.mail-tel{
+    color: #434455;
+}
+.mail-tel:hover, .mail-tel:focus{
+    color: #4D5AE5;
+}
+.our-team{
+    background-color: #F4F4FD;
+    
+}
+
+.footer{
+    background-color: #2E2F42;
+    color: #E7E9FC;
+}
+.logo-footer{
+    color: #F4F4FD;
+}
