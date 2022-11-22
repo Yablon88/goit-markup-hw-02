@@ -1,60 +1,191 @@
-/*  усіх заголовків #2E2F42 */
-/*  загального тексту #434455 */
-/*  кнопок #4D5AE5 */
-/*  активний текст #FFFFFF */
-/*  фон неатквної кнопки #E7E9FC */
 
-.body{
-    background-color: #E5E5E5;
-    color: #434455;
+/* колір основного тексту 434455*/
+/* основний колір фону #E5E5E5 */
+
+/* додатковий колір фону F4F4FD */
+
+/* headlines #2E2F42 */
+/* button text #4D5AE5 */
+/* button background #E7E9FC */
+
+
+:root{
+    --primary-text-color: #434455;
+    --primary-white-color: #ffffff;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
 }
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+ /* Логотип */
+ 
+  .logo{
+    Font-family: 'Raleway', sans-serif;
+
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+text-decoration: none;
+
+ }
+
+.web{
+    color: var(--accent-color);
+ }
+.studio{
+    color: var(--title-text-color);
+}
+    
+/* прибрав точки в списку */
+
 ul{
     list-style: none;
-}
- /* Логотип */
- .logo{
-    color: #4D5AE5;
- }
- .nav{
-   color:  #2E2F42
- }
+    }
 
- .head{
-    background: #2E2F42;
-    color: #FFFFFF;
- }
+
+    /* шапка з контактами */
+.site-nav{
  
- .button-primary{
-    background-color:   #4D5AE5;
-    color: #FFFFFF;
- }
- .button-primary:hover, .button-primary:focus{
-    background-color: #E7E9FC;
-    color: #4D5AE5;
- }
- .button-secondary{
-    background-color: #E7E9FC;
-    color: #4D5AE5;
- }
-.button-secondary:hover, .button-secondary:focus{
-    background-color:   #4D5AE5;
-    color: #FFFFFF;
-}
-.mail-tel{
-    color: #434455;
-}
-.mail-tel:hover, .mail-tel:focus{
-    color: #4D5AE5;
-}
-.our-team{
-    background-color: #F4F4FD;
-    
+font-weight: 600;
+font-size: 16px;
+line-height: 1.15;
+
 }
 
-.footer{
-    background-color: #2E2F42;
-    color: #E7E9FC;
+ .site-nav .link{
+    color: var(--title-text-color);
+    text-decoration: none
+
+ }
+
+ .site-nav .link:hover, .site-nav .link:focus{
+   color: var(--primary-text-color);
+ }
+
+
+.site-nav .link-current{
+    color: var(--accent-color);
+    text-decoration: none
 }
-.logo-footer{
-    color: #F4F4FD;
+
+
+.contacts{
+    color: var(--primary-text-color);
+
+
+font-size: 16px;
+line-height: 1.15;
+text-decoration: none;
+}
+.contacts:hover, .contacts:focus{
+    color: var(--accent-color);
+}
+
+.hero-title{
+    color: var(--primary-white-color);
+ 
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+
+text-align: center;
+}
+
+/* заголовки  */
+
+
+.selection-title, .section-subtitles {
+    color: var(--title-text-color);
+}
+
+.selection-title{
+    
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+
+
+text-transform: capitalize;
+}
+
+.section-subtitles{
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+
+}
+
+
+    /* Our team */
+
+.team{
+    background-color: #F4F4FD;
+}
+
+    /* Кнопки */
+
+
+.button-primary{
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+
+letter-spacing: 0.04em;
+
+    cursor: pointer;
+
+ 
+}
+
+.buton-primary:hover, 
+.buton-primary:focus{
+    color: var(--accent-color);
+    background-color: #E7E9FC;
+} 
+
+.button-secondary{
+   
+    color: var(--accent-color);
+    background-color: #E7E9FC;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.04em;
+
+ cursor: pointer;
+
+}
+.button-secondary:hover, 
+.button-secondary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+    /* footer */
+.footer{
+
+    color: #E7E9FC;
+    background-color: var(--title-text-color);
+}
+.footer .studio{
+    color: var(--primary-white-color);
 }
