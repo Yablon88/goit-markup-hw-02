@@ -19,20 +19,14 @@
 --Subtle-Text-color: #8E8F99;
 --dark-color: #2E2F42;
 --primary-Text-color: #434455;
-
-
-
-
-
+--primary-button-color:#404BBF;
 }
 
 body{
 
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-
-
+    color: var(--primary-Text-color);
 }
 
  /* Логотип */
@@ -66,6 +60,11 @@ text-transform: uppercase;
 ul{
     list-style: none;
     }
+
+    a {
+        text-decoration: none;
+    }
+
   .visually-hidden {
   position: absolute;
   width: 1px;
@@ -120,7 +119,7 @@ text-decoration: none;
 }
 
 .hero{
-    background-color: var(--primary-Text-color);
+    background-color: var(--dark-color);
         letter-spacing: 0.02em;
 }
 
@@ -162,7 +161,9 @@ line-height: 1.2;
 
     /* Our team */
 
-
+.partner{
+    background-color: var(--primary-white-color);
+}
 .team{
     background-color: var(--Light-color);
 }
@@ -191,14 +192,14 @@ letter-spacing: 0.04em;
 
 .button-primary:hover, 
 .button-primary:focus{
-    color: var(--Primary-Brand-color);
-    background-color: var(--Accent-color);
+    
+    background-color: var(--primary-button-color);
 } 
 
 .button-secondary{
    
     color: var(--Primary-Brand-color);
-    background-color: var(--Accent-color);
+    background-color: var(--Light-color);
 
 font-weight: 700;
 font-size: 16px;
